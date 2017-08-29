@@ -12,6 +12,6 @@ Run<br>
 4. npm install react-addons-css-transition-group<br><br>
 
 then<br>
-npm start
+<b>npm start</b>
 
 
