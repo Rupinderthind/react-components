@@ -5,7 +5,7 @@ Below you will find some information on how to perform common tasks.<br>
 ## How to use
 
 Download zip into you system and then <br><br> 
-Run<br>
+Run inside the new created folder<br>
 1. npm install<br>
 2. npm install axios<br>
 3. npm install material-ui<br>
