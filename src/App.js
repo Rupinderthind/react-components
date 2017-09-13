@@ -7,6 +7,7 @@ import ApiGetData from './axiosData';
 import ChangeColor from './changeColor';
 import AnimationComponent from './animationComponent';
 import FormPost from './formPost';
+import Clock from './clock';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import MaterialCon from './materialCon';
@@ -57,6 +58,10 @@ class App extends Component {
           <MuiThemeProvider>
             <MaterialCon />
           </MuiThemeProvider>
+        </div>
+
+        <div className="clock">
+          <Clock />
         </div>
       </div>
     );
