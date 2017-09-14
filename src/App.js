@@ -8,6 +8,7 @@ import ChangeColor from './changeColor';
 import AnimationComponent from './animationComponent';
 import FormPost from './formPost';
 import Clock from './clock';
+import IncDec from './incdec';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import MaterialCon from './materialCon';
@@ -19,7 +20,6 @@ class App extends Component {
       allEmoji: searchEmoji('',20),
     };
     this.setStateHandler = this.setStateHandler.bind(this);
-
   }
 
   setStateHandler(event){
@@ -62,6 +62,9 @@ class App extends Component {
 
         <div className="clock">
           <Clock />
+        </div>
+        <div className="IncDec">
+          <IncDec />
         </div>
       </div>
     );
